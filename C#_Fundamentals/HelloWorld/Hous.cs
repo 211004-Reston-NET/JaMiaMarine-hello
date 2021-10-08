@@ -3,7 +3,7 @@ namespace HouseFunction
 
     public class House
     {
-        private string owner;
+        public string owner;
 
         private string ghost;
 
@@ -16,15 +16,18 @@ namespace HouseFunction
             roomCount = 1;
         }
 
-        public string Owner 
-        { 
+        public string Owner
+        {
             get
             {
                 return owner;
-            } 
-            set 
             }
 
+            set
+            {
+                owner = value + " Owner";
+            }
+        }
             public string Micename { get; set; }
     }
 }

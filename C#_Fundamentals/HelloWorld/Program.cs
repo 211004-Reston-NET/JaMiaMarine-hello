@@ -18,6 +18,7 @@ namespace HelloWorld
             - Static means, I don't have to instantiate the profram class to use that method
         */
         static void Main(string[] args)
+
         {
             // It will print the test inside the parenthesis onto the terminal
             Console.WriteLine("Hello World!");
@@ -31,7 +32,19 @@ namespace HelloWorld
         House JaMia = new House();
         // Console.WriteLine(JaMia.owner);
         JaMia.Micename = "Jerry";
+        JaMia.Owner = "Collin";
+
+        //We displayed those changed values into the terminal
         Console.WriteLine(JaMia.Micename);
+        Console.WriteLine(JaMia.Owner);
+        Console.WriteLine(JaMia.owner);
+
+        string name;
+        Console.WriteLine("What is your name??");
+        name = Console.ReadLine(); //Readline is the same as the read CLI from bash Scripting
+        Console.WriteLine($"Hello {name}! Welcome to programming :)");
+
+        
 
         }
 
