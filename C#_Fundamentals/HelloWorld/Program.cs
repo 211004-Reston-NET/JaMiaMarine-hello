@@ -1,6 +1,6 @@
 ﻿using System;
 using HouseFunction;
-// Comment
+// Comments
 
 /*
 
