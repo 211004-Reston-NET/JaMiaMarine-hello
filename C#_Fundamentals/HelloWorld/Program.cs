@@ -48,6 +48,14 @@ namespace HelloWorld
         collection colletionObj = new Collection();
         collectionObj.CollectionMain();
 
+        Console.WriteLine("====To String Demo====");
+        Console.WriteLine(Stephen);
+
+        Console.WriteLine("==== Serializer Demo ====");
+
+        Serialization serialObj = new Serialization();
+        serialObj.SerialMain();
+
         
 
         }
