@@ -1,5 +1,6 @@
 ﻿using System;
 using HouseFunction;
+using CollectionFunction; //you have to add the namespace from the different classes to use them
 // Comments
 
 /*
@@ -43,6 +44,9 @@ namespace HelloWorld
         Console.WriteLine("What is your name??");
         name = Console.ReadLine(); //Readline is the same as the read CLI from bash Scripting
         Console.WriteLine($"Hello {name}! Welcome to programming :)");
+
+        collection colletionObj = new Collection();
+        collectionObj.CollectionMain();
 
         
 
